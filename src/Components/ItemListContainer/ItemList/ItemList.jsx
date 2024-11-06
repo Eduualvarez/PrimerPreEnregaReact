@@ -1,6 +1,6 @@
 import { Item } from "./Item/Item";
 
-export function ItemList()
+export function ItemList({products})
 {
     return(
     <>
