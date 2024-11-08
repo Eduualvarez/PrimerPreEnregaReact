@@ -1,0 +1,17 @@
+#imagenItem
+{
+    height: 200px;
+    width: 200px;
+
+    
+};
+.card
+{
+ 
+    display:flex;
+    align-content: center;
+}
+.card button
+{
+    display:block;
+}
