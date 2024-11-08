@@ -169,7 +169,7 @@ const productos = [
         name: "Mouse Logitech",
         price: 1500,
         category: "Mouses",
-        img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mercadolibre.com.uy%2Fmouse-gamer-de-juego-logitech-g-g-series-g203-lightsync-negro%2Fp%2FMLU16211422&psig=AOvVaw3fFkqmoBEb558U_fCNDDaV&ust=1730936865335000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMCAnLmwxokDFQAAAAAdAAAAABAE",
+        img: "https://conecta.tec.mx/sites/default/files/styles/header_full/public/2018-11/Portada%20perros.jpg.webp?itok=84KeYznH",
         stock: 20,
         description: "Mouse gamer Logitech",
     },
@@ -207,7 +207,7 @@ export  const getProducts = ()=>
         },2500)
     })
 };
-console.log(getProducts())
+
 
 //para renderizar los productos por categoria 
 export  const getProductsByCategoryId = (categoryId)=>

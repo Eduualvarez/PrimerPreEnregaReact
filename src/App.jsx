@@ -8,7 +8,7 @@ function App ()
     <BrowserRouter>
         <NavBar/>
             <Routes>
-                <Route  path="/" element={ <ItemListContainer titulo="Productos"/>}/>
+                <Route exact path="/" element={ <ItemListContainer />}/>
                 <Route path="/category/:categoryId:" element={<ItemListContainer/>}/>
                 <Route path="*" element={<h1>Not found 404</h1>}/>
             </Routes>

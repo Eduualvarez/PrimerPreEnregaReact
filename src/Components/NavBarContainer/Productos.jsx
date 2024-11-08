@@ -1,10 +1,11 @@
 
+import { Link } from 'react-router-dom'
 import './Productos.css'
 
 function Productos(){
     return(
         <>
-            <a href="#"><span id="productos">Productos</span></a>
+           <Link to ="/category/:categoryId:"><span id="productos">Productos</span></Link>
         
         
         </>
