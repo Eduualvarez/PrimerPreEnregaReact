@@ -1,12 +1,24 @@
-#productos{
+.productos{
     color: aliceblue;
     font-size: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 10px;
+
 }
-#productos:hover
+.productos:hover
 {
     
     color:grey;
-    cursor: default;
-    text-decoration: underline;   
+  
+     
+}
+.productsContainer
+{
+    display: flex;
+    flex-direction: row;
+   list-style-type: none;
+   align-items: center;
+}
+Link {
+    text-decoration: none;
 }

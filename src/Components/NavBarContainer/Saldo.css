@@ -14,7 +14,6 @@
 .saldo:hover
 {
     color:grey;
-    cursor: default;
-    text-decoration: underline;
+
 
 }

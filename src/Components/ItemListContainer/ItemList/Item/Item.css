@@ -5,13 +5,12 @@
 
     
 };
-.card
+/*.card
 {
  
     display:flex;
     align-content: center;
-}
-.card button
-{
-    display:block;
+    width:500px;
+    height: 500px;
+    border: solid black 3px;
 }
